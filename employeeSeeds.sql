@@ -1,5 +1,7 @@
-INSERT INTO department(name)VALUES("finance"),("accounting"),("marketing"),("operations management")
+USE employeeTracker_db;
 
-INSERT INTO role(title, salary)VALUES("intern", 40000),("associate", 50000);
+INSERT INTO department(name)VALUES("finance"),("accounting"),("marketing"),("operations management");
 
-INSERT INTO employee (first_name, last_name) VALUES("Max", "G"),("Evan", "J");
+INSERT INTO role(title, salary, department_id)VALUES("intern", 40000,1),("associate", 50000, 4);
+
+INSERT INTO employee (first_name, last_name, role_id ) VALUES("Max", "G", 1),("Evan", "J",2);
