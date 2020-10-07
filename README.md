@@ -1,4 +1,4 @@
-# employeeTracker
+# Employee Tracker
 
 
 ## License
@@ -8,6 +8,8 @@
 ## Description
 
 This is a command line application using mysql, node.js and inquirer. To use the user will clone the repo and install all npm packages. The user will be able to view all employees, departments, and roles as well as create new employees, roles and departments. Attached is a video of the assignment. <a href="https://drive.google.com/file/d/1ONoXeE1WDNNEIvQHdMBGrVV6oUSDFvVG/view">deploy link</a>
+
+The application utilizes sql joins in order to pull all the relevent information for each part of the application. This was the most difficult part of the project and is still a work in progress. This was a very diffivult assignment that I will continue to work on.
 
 
 # Questions
