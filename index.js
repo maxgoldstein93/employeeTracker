@@ -122,7 +122,7 @@ const addRole = () => {
       throw err;
     let deptName = depData.map(item => item.name);
     let deptId = depData.map(item => item.id);
-    console.log(deptName)
+    
 
 
 
